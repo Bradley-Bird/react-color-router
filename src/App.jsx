@@ -27,10 +27,7 @@ function ScreenColor() {
   return (
     <div>
       <Switch>
-        {/* <Route path="/rgb/:r/:g/:b" component={<RGB />} /> */}
-        <Route path="/rgb/:r/:g/:b">
-          <RGB />
-        </Route>
+        <Route path="/rgb/:r/:g/:b" component={RGB} />
       </Switch>
     </div>
   );
